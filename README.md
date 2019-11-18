@@ -16,3 +16,10 @@ Add as alias:
 
 Add git alias:
 `git config --global alias.localprune '! bash -c "source ~/.bashrc && git_clean_local_branches"'`
+
+## install commands
+
+run this to install the aliases in your .bashrc or .bash_profile
+
+`echo "source ~/projects/commands/commands.sh" >> ~/.bash_profile`
+
