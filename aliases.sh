@@ -44,6 +44,7 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias plz="fc -l -1 | cut -d' ' -f2- | xargs sudo"
 
 # Info
 alias path='echo -e ${PATH//:/\\n}'
