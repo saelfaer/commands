@@ -23,3 +23,8 @@ run this to install the aliases in your .bashrc or .bash_profile
 
 `echo "source ~/projects/commands/commands.sh" >> ~/.bash_profile`
 
+## install aliasses
+
+run this to install the aliases in your .bashrc or .bash_profile
+
+`echo "source ~/projects/commands/aliases.sh" >> ~/.bash_profile`
