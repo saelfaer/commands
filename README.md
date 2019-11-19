@@ -68,7 +68,7 @@ brew install fzf
 $(brew --prefix)/opt/fzf/install
 ```
 
-## git delta
+## install delta
 
 [Delta](https://github.com/dandavison/delta) is a syntax highlighting diff tool for git
 
@@ -84,4 +84,12 @@ and configure it to your git config
 
 ```
 git config --global core.pager "delta --dark"  # --light for light terminal backgrounds
+```
+
+## install bat
+
+[Bat](https://github.com/sharkdp/bat) is a cat(1) clone with syntax highlighting
+
+```
+brew install bat
 ```
