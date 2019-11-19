@@ -28,3 +28,13 @@ run this to install the aliases in your .bashrc or .bash_profile
 run this to install the aliases in your .bashrc or .bash_profile
 
 `echo "source ~/projects/commands/aliases.sh" >> ~/.bash_profile`
+
+## install forgit
+
+Forgit is a handy interactive git commandline tool for stuff like adding files to a commit, diffing, log browsing, stash management...
+
+```
+cd ~/ &&
+curl -Ss https://raw.githubusercontent.com/wfxr/forgit/master/forgit.plugin.zsh -o forgit.plugin.sh &&
+echo "source ~/forgit.plugin.sh" >> .bash_profile
+```
